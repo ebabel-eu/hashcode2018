@@ -2,3 +2,12 @@
 Self-driving rides
 
 
+## Install
+```
+npm install
+```
+
+## Run
+```
+npm start
+```
