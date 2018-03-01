@@ -1,0 +1,19 @@
+{
+  "name": "hashcode2018",
+  "version": "1.0.0",
+  "description": "Hash Code 2018: Self-driving rides",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebabel-eu/hashcode2018.git"
+  },
+  "author": "Nadjib Amar <hello@ebabel.eu> (http://ebabel.eu/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ebabel-eu/hashcode2018/issues"
+  },
+  "homepage": "https://github.com/ebabel-eu/hashcode2018#readme"
+}
