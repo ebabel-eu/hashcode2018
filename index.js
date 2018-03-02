@@ -1,12 +1,11 @@
-const fs = require('fs');
+const processInput = require('./process-input');
 
-const options = { encoding: 'utf8' };
 const input = {
-  example: fs.readFileSync('./input/a_example.in', options),
-  easy: fs.readFileSync('./input/b_should_be_easy.in', options),
-  noHurry: fs.readFileSync('./input/c_no_hurry.in', options),
-  metropolis: fs.readFileSync('./input/d_metropolis.in', options),
-  bonus: fs.readFileSync('./input/e_high_bonus.in', options),
+  example: processInput('./input/a_example.in'),
+  easy: processInput('./input/b_should_be_easy.in'),
+  noHurry: processInput('./input/c_no_hurry.in'),
+  metropolis: processInput('./input/d_metropolis.in'),
+  bonus: processInput('./input/e_high_bonus.in'),
 };
 
 console.log(input.easy);
